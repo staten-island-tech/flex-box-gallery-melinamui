@@ -8,14 +8,14 @@ body {
   text-align: center;
 }
 h1 {
-  color: deeppink;
+  color: white;
 }
 h2 {
-  color: hotpink;
+  color: white;
 }
 
 h3 {
-  color: palevioletred;
+  color: gray;
 }
 
 .fav {
@@ -26,7 +26,7 @@ h3 {
   background-position: center;
   height: 20vh;
   margin: auto;
-  background: pink;
+  background: #a4003e;
   width: 50%;
   padding: 30px;
   border-radius: 25px;
@@ -76,7 +76,7 @@ h3 {
 
 .opinion {
   margin: auto;
-  background: pink;
+  background: lightgray;
   width: 20%;
   padding: 30px;
   border-radius: 25px;
