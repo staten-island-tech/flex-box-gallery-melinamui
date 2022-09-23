@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(90deg, black 50%, white 50%);
+  color: deeppink;
+  font-size: 25px;
+
+  font-family: "Kosugi Maru", sans-serif;
+
+  text-align: center;
+}
+h1 {
+  color: deeppink;
+}
+h2 {
+  color: hotpink;
+}
+
+h3 {
+  color: palevioletred;
+}
+
+.fav {
+  color: deeppink;
+}
+
+.background {
+  background-position: center;
+  height: 20vh;
+  margin: auto;
+  background: pink;
+  width: 50%;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.box1 {
+  margin: auto;
+  background: pink;
+  width: 25%;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: left;
+}
+
+.elite {
+  margin: auto;
+  background: pink;
+  width: 50%;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.bad {
+  margin: auto;
+  background: pink;
+  width: 50%;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.song {
+  margin: auto;
+  background: pink;
+  width: 50%;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+}
+.link {
+  color: deeppink;
+}
+.link :hover {
+  color: deeppink;
+}
+
+.opinion {
+  margin: auto;
+  background: pink;
+  width: 20%;
+  padding: 30px;
+  border-radius: 25px;
+}
