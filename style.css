@@ -1,9 +1,31 @@
-body {
+html,
+body,
+* {
   background: linear-gradient(90deg, black 50%, white 50%);
   color: deeppink;
-  font-size: 25px;
-
   font-family: "Kosugi Maru", sans-serif;
 
-  text-align: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.parent {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+  gap: 10px 20px;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+.child {
+  background: blue;
+  border-radius: 25px;
+  border: 1px solid blue;
+  padding: 20px;
+  width: 40vh;
+  height: 40vh;
 }
