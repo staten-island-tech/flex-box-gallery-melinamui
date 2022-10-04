@@ -12,6 +12,7 @@ body,
 
 h1 {
   color: deeppink;
+  background: #e0afa0;
 }
 .parent {
   font-size: 30px;
@@ -24,9 +25,9 @@ h1 {
 }
 
 .child {
-  background: blue;
+  background: #e0afa0;
   border-radius: 25px;
-  border: 1px solid blue;
+  border: 1px solid #e0afa0;
   padding: 20px;
   width: 40vh;
   height: 40vh;
