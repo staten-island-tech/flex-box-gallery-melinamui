@@ -2,7 +2,7 @@ html,
 body,
 * {
   background: linear-gradient(90deg, black 50%, white 50%);
-  color: deeppink;
+  color: #463f3a;
   font-family: "Kosugi Maru", sans-serif;
   padding: 0;
   margin: 0;
@@ -11,7 +11,7 @@ body,
 }
 
 h1 {
-  color: deeppink;
+  color: #463f3a;
   background: #e0afa0;
   font-size: 30px;
 }
