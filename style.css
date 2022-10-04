@@ -4,8 +4,8 @@ body,
   background: linear-gradient(90deg, black 50%, white 50%);
   color: #463f3a;
   font-family: "Kosugi Maru", sans-serif;
-  padding: 30px;
-  margin: 30px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
 }
