@@ -21,9 +21,9 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   align-content: space-around;
-  gap: 10px 20px;
-  row-gap: 10px;
-  column-gap: 20px;
+  gap: 20px 30px;
+  row-gap: 20px;
+  column-gap: 30px;
 }
 
 .child {
