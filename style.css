@@ -12,7 +12,9 @@ body,
 }
 
 .title {
-  color: deeppink;
+  background-position: center;
+  height: 20vh;
+  margin: auto;
   background: pink;
   width: 50%;
   padding: 30px;
