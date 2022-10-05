@@ -9,6 +9,17 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
+.logo {
+  background: #ed008c;
+  border-radius: 25px;
+  padding: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 55vh;
+  text-align: center;
+  box-shadow: 10px 10px white;
+  
+}
 
 .parent {
   text-align: center;
@@ -31,6 +42,7 @@ body,
   padding: 50px;
   width: 30%;
   height: 30%;
+  box-shadow: 20px 20px #ed008c;
 }
 
 h1 {
@@ -50,4 +62,6 @@ h1 {
   padding: 30px;
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 30px;
+  box-shadow: 20px 20px #ed008c;
 }
