@@ -2,6 +2,7 @@ html,
 body,
 * {
   background: linear-gradient(90deg, black 50%, white 50%);
+  background-repeat: no-repeat;
   color: white;
   font-family: "Kosugi Maru", sans-serif;
   padding: 0;
@@ -42,6 +43,12 @@ body,
   width: 30%;
   height: 30%;
   box-shadow: 20px 20px #ed008c;
+}
+
+@media screen and (max-width: 900px) {
+  .parent {
+    flex-direction: row;
+  }
 }
 
 h1 {
