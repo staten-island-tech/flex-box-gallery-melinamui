@@ -14,11 +14,10 @@ body,
   border-radius: 25px;
   padding: 30px;
   margin-top: 20px;
-  margin-left: 30px;
-  width: 55vh;
+  margin-left: 50px;
+  width: 20vh;
   text-align: center;
   box-shadow: 10px 10px white;
-  
 }
 
 .parent {
