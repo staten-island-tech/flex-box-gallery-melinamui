@@ -12,13 +12,9 @@ body,
 }
 .logo {
   background: #ed008c;
-  border-radius: 25px;
   padding: 30px;
-  margin-top: 20px;
-  margin-left: 50px;
-  width: 20vh;
+  width: 100%;
   text-align: center;
-  box-shadow: 10px 10px white;
 }
 
 .parent {
@@ -33,6 +29,7 @@ body,
   row-gap: 30px;
   column-gap: 30px;
   padding: 40px;
+  align-items: center;
 }
 
 .child {
