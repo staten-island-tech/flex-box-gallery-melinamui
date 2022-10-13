@@ -4,6 +4,7 @@ body,
   background: linear-gradient(90deg, black 50%, white 50%);
   background-repeat: no-repeat;
   background-position: 100%;
+  background-size: cover;
   color: white;
   font-family: "Kosugi Maru", sans-serif;
   padding: 0;
@@ -38,9 +39,12 @@ body,
   border-radius: 25px;
   border: 1px solid #a3003d;
   padding: 50px;
+  position: relative;
   width: 30%;
   height: 30%;
   box-shadow: 20px 20px #ed008c;
+  text-align: center;
+
   /* work on absolute positioning!*/
 }
 /*
@@ -52,23 +56,34 @@ body,
   perspective: 1000px;
 }*/
 
-
 @media screen and (max-width: 900px) {
   .parent {
     flex-direction: row;
   }
 }
-
+.img {
+  margin-bottom: 10rem;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 h1 {
   color: white;
   background: #a3003d;
-  font-size: 40px;
+  font-size: 200%;
   padding: 30px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  text-align: center;
 }
 .header {
   color: white;
   background: #a3003d;
-  font-size: 100px;
+  font-size: 10rem;
   width: 50%;
   height: 50%;
   text-align: center;
