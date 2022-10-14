@@ -17,8 +17,24 @@ body,
   padding: 30px;
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 }
 
+.header:hover {
+  transform: scale(1.1);
+}
+
+.header {
+  transition: all 1s;
+}
+
+.child:hover {
+  transform: scale(1.1);
+}
+
+.child {
+  transition: all 1s;
+}
 .parent {
   text-align: center;
   font-size: 30px;
@@ -28,10 +44,11 @@ body,
   flex-wrap: wrap;
   flex-direction: row;
   gap: 20px 30px;
-  row-gap: 70px;
+  row-gap: 100px;
   column-gap: 30px;
   padding: 40px;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .child {
@@ -42,7 +59,7 @@ body,
   position: relative;
   width: 30%;
   height: 30%;
-  box-shadow: 20px 20px #ed008c;
+  box-shadow: 15px 15px #ed008c;
   text-align: center;
 
   /* work on absolute positioning!*/
@@ -97,4 +114,6 @@ h1 {
   margin-top: 20px;
   margin-bottom: 30px;
   box-shadow: 20px 20px #ed008c;
+  word-wrap: break-word;
+  margin-bottom: 50px;
 }
