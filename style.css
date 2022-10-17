@@ -28,13 +28,64 @@ body,
   transition: all 1s;
 }
 
+
 .child:hover {
   transform: scale(1.1);
+  outline: 1rem solid lightblue;
 }
 
 .child {
   transition: all 1s;
 }
+
+.parent:hover .child:not(:hover){
+  transform: scale(0.9);
+  opacity: .3;
+}
+
+.animation {
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  top: 50%;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  background: #ed008c;
+}
+
+@keyframes test {
+  0% {
+    left: 80%;
+    bottom: 10%;
+    background-color: red;
+  }
+  25% {
+    left: 80%;
+    bottom: 20%;
+    background-color: yellow;
+  }
+  50% {
+    left: 85%;
+    bottom: 20%;
+    background-color: blue;
+  }
+  75% {
+    left: 85%;
+    bottom: 10%;
+    background-color: purple;
+  }
+  100% {
+    left: 80%;
+    bottom: 10%;
+    background-color: red;
+  }
+}
+
+
+
+
 .parent {
   text-align: center;
   font-size: 30px;
@@ -117,3 +168,5 @@ h1 {
   word-wrap: break-word;
   margin-bottom: 50px;
 }
+
+
