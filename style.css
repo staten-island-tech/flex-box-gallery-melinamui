@@ -240,7 +240,7 @@ body,
   perspective: 1000px;
 }*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
   .parent {
     flex-direction: row;
   }
@@ -283,4 +283,10 @@ h1 {
   box-shadow: 20px 20px #ed008c;
   word-wrap: break-word;
   margin-bottom: 50px;
+}
+
+@media all and (max-width: 420px) {
+  .header {
+    font-size: 2rem;
+  }
 }
