@@ -20,6 +20,12 @@ body,
   margin-bottom: 50px;
 }
 
+#cote {
+  width: 20%; 
+  height: 20%" 
+}
+/*style="width: 405px; height: 140.625px*/" 
+
 .header:hover {
   transform: scale(1.1);
 }
@@ -174,6 +180,11 @@ body,
   background: #ed008c;
 }
 
+#rick {
+  width: 100%;
+  length: 100%;
+}
+
 @keyframes test {
   0% {
     left: 80%;
@@ -285,8 +296,56 @@ h1 {
   margin-bottom: 50px;
 }
 
+/*Phone*/
 @media all and (max-width: 420px) {
   .header {
     font-size: 2rem;
   }
+  #cote {
+    width: 100%;
+    height: 100%;
+  }
+  #rick {
+    width: 0%
+  }
+  .animation {
+    width: 0%
+  }
+  .child {
+    flex-basis: 90%;
+  }
+
+}
+/*Ipad*/
+@media all and (max-width: 1024px) {
+  .header {
+    font-size: 5rem;
+  }
+  #cote {
+    width: 100%;
+    height: 100%;
+  }
+  #rick {
+    width: 0%
+  }
+  .animation {
+    width: 0%
+  }
+  .child {
+    flex-basis: 50%;
+  }
+
+/*Laptop*/
+}
+@media all and (max-width: 1400px) {
+  .header {
+    font-size: 5rem;
+  }
+  #rick {
+    width: 0%
+  }
+  .animation {
+    width: 0%
+  }
+
 }
