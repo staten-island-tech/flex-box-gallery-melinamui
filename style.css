@@ -240,16 +240,7 @@ body,
   box-shadow: 15px 15px #ed008c;
   text-align: center;
 
-  /* work on absolute positioning!*/
 }
-/*
-.child{
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
-}*/
 
 @media screen and (max-width: 500px) {
   .parent {
@@ -296,7 +287,7 @@ h1 {
   margin-bottom: 50px;
 }
 /*Laptop*/
-}
+
 @media all and (max-width: 1400px) {
   .header {
     font-size: 7rem;
